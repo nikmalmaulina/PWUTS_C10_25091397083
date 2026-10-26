@@ -1,0 +1,35 @@
+:root{--navy:#0B3D91;--blue:#1E6FF0;--sky:#EAF2FF;--line:#D5E3FB;--ink:#12274d}
+body{font-family:'Nunito Sans',system-ui,sans-serif;color:var(--ink);background:#fff}
+h1,h2,h3,h4,h5,.brand{font-family:'Sora',sans-serif;color:var(--navy)}
+.navbar{background:#fff;border-bottom:1px solid var(--line)}
+.brand{font-weight:700;font-size:1.25rem;color:var(--navy)!important}
+.brand img{width:38px}
+.nav-link{color:var(--ink);font-weight:600}
+.nav-link.active,.nav-link:hover{color:var(--blue)}
+.btn-blue{background:var(--blue);color:#fff;border:0;font-weight:700}
+.btn-blue:hover,.btn-blue.active{background:var(--navy);color:#fff}
+.btn-outline-blue{border:2px solid var(--blue);color:var(--blue);font-weight:700;background:#fff}
+.btn-outline-blue:hover,.btn-outline-blue.active{background:var(--blue);color:#fff}
+.hero{background:var(--sky);padding:64px 0}
+.hero h1{font-size:clamp(2rem,5vw,3.2rem);font-weight:800;line-height:1.15}
+.hero img{width:100%;max-width:460px}
+.section{padding:56px 0}
+.feature{border:1px solid var(--line);border-radius:14px;padding:22px;height:100%}
+.feature .ic{width:44px;height:44px;border-radius:12px;background:var(--sky);color:var(--blue);display:grid;place-items:center;font-size:1.3rem;margin-bottom:12px}
+.svc-card{border:1px solid var(--line);border-radius:14px;overflow:hidden;height:100%;display:flex;flex-direction:column;background:#fff}
+.svc-card .thumb{background:var(--sky);padding:14px;text-align:center}
+.svc-card .thumb img{height:64px}
+.svc-card .body{padding:16px;flex:1;display:flex;flex-direction:column}
+.badge-cat{background:var(--sky);color:var(--navy);font-weight:700}
+.price{font-family:'Sora',sans-serif;font-weight:700;color:var(--blue);font-size:1.15rem}
+.calc{background:var(--sky);border:1px solid var(--line);border-radius:16px;padding:24px}
+.calc-result{background:#fff;border-radius:12px;padding:18px;border:1px solid var(--line)}
+.calc-total{font-family:'Sora',sans-serif;font-size:1.8rem;font-weight:800;color:var(--navy)}
+.form-card{border:1px solid var(--line);border-radius:16px;padding:26px}
+.form-control:focus,.form-select:focus{border-color:var(--blue);box-shadow:0 0 0 .2rem rgba(30,111,240,.2)}
+footer{background:var(--navy);color:#cfe0ff;padding:28px 0}
+.page-head{background:var(--sky);padding:36px 0;margin-bottom:32px}
+/* Foto paket di kartu layanan */
+.svc-card .thumb{padding:0}
+.svc-card .thumb img{width:100%;height:170px;object-fit:cover;display:block}
+.svc-card .thumb img.fallback{object-fit:contain;height:170px;padding:36px;background:var(--sky)}
