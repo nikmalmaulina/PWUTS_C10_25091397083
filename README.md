@@ -1,6 +1,6 @@
 # Step Clean - Website Jasa Cuci Sepatu (UTS Pemrograman Web)
 
-Kelompok C10 - Kelas 2025C - D-4 Manajemen Informatika, Universitas Negeri Surabaya
+Nikmal Maulina Arba'ani - Kelas 2025C - D-4 Manajemen Informatika, Universitas Negeri Surabaya
 
 Website ini dibuat berdasarkan proposal "Perancangan Sistem Website Cuci Sepatu". Menggunakan tema warna: biru-putih.
 
