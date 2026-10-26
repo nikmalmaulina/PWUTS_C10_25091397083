@@ -35,7 +35,7 @@ uploads/              foto sepatu dari pelanggan
 1. Membuat folder stepclean yang berisi `database.sql`, `index.html`, `booking.js`,`layanan.js`, `app.js`, `style.css`, asset/image, dan uploads.
 2. Salin folder ke `htdocs` (XAMPP), mis. `C:\xampp\htdocs\stepclean`.
 3. Aktifkan Apache dan MySQL, lalu impor `database.sql` lewat phpMyAdmin.
-4. Buka `http://localhost/stepclean/`.
+4. Buka `http://localhost/stepclean/`. (lebih dirasankan dibuka lewat ini)
 
 Halaman harus dibuka lewat web server. Jika `index.html` dibuka langsung (`file://`), Ajax diblokir browser.
 Koneksi database di `proses_booking.php`: user `root`, password kosong (default XAMPP).
